@@ -58,22 +58,38 @@ main .ext-container{
     align-items: center;
     justify-content: center;
 }
-main section #left-txt{
-    justify-content: flex-start;
-}
 main section .container{
-    height: 500px;
+    min-height: 500px;
     width: 1190px;
     border: 5px dotted black;
     /* test */
-
+    
     justify-content: flex-end;
+}
+main section #left-txt{
+    justify-content: flex-start;
 }
 main section .text-container{
     border: 5px dotted black;
     width: 480px;
     /* test */
 }
+
+/* img e download */
+
+main section .img-dwn-container{
+    height: 890px;
+    width: 990px;
+    margin: 50px;
+    border: 5px dotted black;
+    /* test */
+    background-color: #228b22;
+}
+
+
+
+
+
 
 /* background color */
 .bg-lightblue{
