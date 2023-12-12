@@ -21,7 +21,7 @@ header nav .navbar{
     justify-content: space-between;
 
     /* margin: 0 auto; */
-    width: 1190px;
+    width: 1200px;
     padding: 14px;
     
     background-color: #daa520;
@@ -32,6 +32,7 @@ header nav a{
 }
 
 /* download */
+
 header .download-container{
     min-height: 500px;
     /* test */
@@ -50,11 +51,12 @@ header .download-container .download{
     background-color: #ee82ee;
 }
 
-
 /* sezioni img e descrizione */
+
 .ext-container{
     min-height: 600px;
     /* test */
+
     align-items: center;
     justify-content: center;
 }
@@ -83,18 +85,20 @@ main section .img-dwn-container{
     margin: 50px;
     border: 1px dotted black;
     /* test */
+
     background-color: #228b22;
 }
 
 /* info */
-.footer-container{
+
+footer .footer-container{
     align-items: center;
     justify-content: center;
 
     padding: 14px;
     padding-bottom: 40px;
 }
-.info-container{
+footer section .info-container{
     height: 580px;
     width: 1200px;
     border: 1px dotted black;
@@ -104,7 +108,7 @@ main section .img-dwn-container{
 
     background-color: #f08080;
 }
-.info{
+footer section .info-container .info{
     height: 580px;
     width: 220px;
     border: 1px dotted black;
@@ -112,14 +116,16 @@ main section .img-dwn-container{
 
     background-color: #20b2aa ;
 }
+
 /* button */
-.button-bar{
+
+footer .button-bar{
     align-items: flex-end;
     justify-content: center;
 
     padding-top: 30px;
 }
-.button-container{
+footer .button-bar .button-container{
     width: 1200px;
     height: 80px;
     /* test */
@@ -129,13 +135,14 @@ main section .img-dwn-container{
 
     background-color: #7fffd4;
 }
-.footer-item{
+footer .button-bar .button-container .footer-item{
     border: 5px dotted black;
     /* test */
     padding: 10px 14px;
 
     background-color: #ffb6c1;
 }
+
 
 /* background color */
 .bg-lightblue{
