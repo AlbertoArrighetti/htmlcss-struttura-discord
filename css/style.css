@@ -44,7 +44,7 @@ header .download-container{
 header .download-container .download{
     width: 900px;
     min-height: 400px;
-    border: 5px dotted black;
+    border: 1px dotted black;
     /* test */
 
     background-color: #ee82ee;
@@ -61,7 +61,7 @@ header .download-container .download{
 main section .container{
     min-height: 500px;
     width: 1200px;
-    border: 5px dotted black;
+    border: 1px dotted black;
     /* test */
     
     justify-content: flex-end;
@@ -70,7 +70,7 @@ main section #left-txt{
     justify-content: flex-start;
 }
 main section .text-container{
-    border: 5px dotted black;
+    border: 1px dotted black;
     width: 480px;
     /* test */
 }
@@ -81,7 +81,7 @@ main section .img-dwn-container{
     height: 890px;
     width: 1200px;
     margin: 50px;
-    border: 5px dotted black;
+    border: 1px dotted black;
     /* test */
     background-color: #228b22;
 }
@@ -97,7 +97,7 @@ main section .img-dwn-container{
 .info-container{
     height: 580px;
     width: 1200px;
-    border: 5px dotted black;
+    border: 1px dotted black;
     /* test */
 
     justify-content: flex-end;
@@ -107,18 +107,35 @@ main section .img-dwn-container{
 .info{
     height: 580px;
     width: 220px;
-    border: 5px dotted black;
+    border: 1px dotted black;
     /* test */
 
     background-color: #20b2aa ;
 }
 /* button */
 .button-bar{
-    height: 110px;
-    /* test */
+    align-items: flex-end;
+    justify-content: center;
+
+    padding-top: 30px;
 }
+.button-container{
+    width: 1200px;
+    height: 80px;
+    /* test */
 
+    align-items: center;
+    justify-content: space-between;
 
+    background-color: #7fffd4;
+}
+.footer-item{
+    border: 5px dotted black;
+    /* test */
+    padding: 10px 14px;
+
+    background-color: #ffb6c1;
+}
 
 /* background color */
 .bg-lightblue{
