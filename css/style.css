@@ -4,3 +4,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* navbar */
+header .bg-azure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 18px;
+
+    background-color: #add8e6;
+}
+header nav .navbar{
+    display: flex;
+    justify-content: space-between;
+
+    width: 1190px;
+    padding: 14px;
+    
+    background-color: #daa520;
+}
+
+/* download */
+header .download-container{
+    height: 500px;
+    /* test */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #00008b;
+}
+header .download-container .download{
+    width: 900px;
+    height: 400px;
+    /* test */
+
+    background-color: #ee82ee;
+    border: 5px dotted black;
+}
