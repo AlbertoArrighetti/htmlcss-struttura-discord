@@ -52,7 +52,7 @@ header .download-container .download{
 
 
 /* sezioni img e descrizione */
-main .ext-container{
+.ext-container{
     min-height: 600px;
     /* test */
     align-items: center;
@@ -60,7 +60,7 @@ main .ext-container{
 }
 main section .container{
     min-height: 500px;
-    width: 1190px;
+    width: 1200px;
     border: 5px dotted black;
     /* test */
     
@@ -79,15 +79,44 @@ main section .text-container{
 
 main section .img-dwn-container{
     height: 890px;
-    width: 990px;
+    width: 1200px;
     margin: 50px;
     border: 5px dotted black;
     /* test */
     background-color: #228b22;
 }
 
+/* info */
+.footer-container{
+    align-items: center;
+    justify-content: center;
 
+    padding: 14px;
+    padding-bottom: 40px;
+}
+.info-container{
+    height: 580px;
+    width: 1200px;
+    border: 5px dotted black;
+    /* test */
 
+    justify-content: flex-end;
+
+    background-color: #f08080;
+}
+.info{
+    height: 580px;
+    width: 220px;
+    border: 5px dotted black;
+    /* test */
+
+    background-color: #20b2aa ;
+}
+/* button */
+.button-bar{
+    height: 110px;
+    /* test */
+}
 
 
 
@@ -100,4 +129,7 @@ main section .img-dwn-container{
 }
 .bg-grey{
     background-color: #d3d3d3;
+}
+.bg-footer{
+    background-color: #23272a;
 }
