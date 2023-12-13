@@ -4,32 +4,61 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* flex rule */
-.flex-rule{
-    display: flex;
+
+
+.container{
+    border: 1px dashed black;
+    /* test */
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 /* navbar */
-header .bg-azure{
-    align-items: center;
-    justify-content: center;
+nav{
+    background-color: #add8e6;
+    /* test */
 
     padding: 18px;
-
-    background-color: #add8e6;
 }
-header nav .navbar{
-    justify-content: space-between;
+nav .container > *{
+    border: 1px dashed black;
+    /* test */
 
-    /* margin: 0 auto; */
-    width: 1200px;
-    padding: 14px;
-    
+    padding: 14px 10px;
+}
+nav .container{
     background-color: #daa520;
+    /* test */
+
+    display: flex;
 }
-header nav a{
-    text-decoration: none;
-    color: black;
+nav .logo{
+    width: 240px;
 }
+nav .nav-links{
+    flex-grow: 1;
+}
+nav .nav-links ul{
+    display: flex;
+    justify-content: center;
+
+    gap: 12px;
+
+    list-style-type: none;
+}
+nav .login{
+    width: 240px;
+    text-align: right;
+}
+
+
+
+
+
+
+
 
 /* download */
 
@@ -141,19 +170,4 @@ footer .button-bar .button-container .footer-item{
     padding: 10px 14px;
 
     background-color: #ffb6c1;
-}
-
-
-/* background color */
-.bg-lightblue{
-    background-color: #1e90ff;
-}
-.bg-pink{
-    background-color: #ffc0cb;
-}
-.bg-grey{
-    background-color: #d3d3d3;
-}
-.bg-footer{
-    background-color: #23272a;
 }
