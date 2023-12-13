@@ -107,60 +107,47 @@ nav .login{
 }
 
 
+/* footer */
 
-
-
+.bg-black{
+    background-color: #23272a;
+}
+footer{
+    padding-top: 12px;
+}
 
 /* info */
 
-footer .footer-container{
-    align-items: center;
-    justify-content: center;
-
-    padding: 14px;
-    padding-bottom: 40px;
+#footer-top{
+    margin-bottom: 40px;
 }
-footer section .info-container{
-    height: 580px;
-    width: 1200px;
-    border: 1px dotted black;
-    /* test */
-
-    justify-content: flex-end;
-
+footer .footer-link{
     background-color: #f08080;
-}
-footer section .info-container .info{
     height: 580px;
-    width: 220px;
-    border: 1px dotted black;
+    width: 360px;
     /* test */
-
-    background-color: #20b2aa ;
+}
+footer .footer-info{
+    background-color: #20b2aa;
+    /* test */
+    
+    flex-grow: 1;   
 }
 
-/* button */
+/* logo e button */
 
-footer .button-bar{
-    align-items: flex-end;
-    justify-content: center;
-
-    padding-top: 30px;
-}
-footer .button-bar .button-container{
-    width: 1200px;
-    height: 80px;
+#footer-bottom{
+    background-color: #7fffd4;
     /* test */
 
-    align-items: center;
     justify-content: space-between;
 
-    background-color: #7fffd4;
+    margin-top: 30px;
+    padding: 20px 0px;
 }
-footer .button-bar .button-container .footer-item{
-    border: 5px dotted black;
-    /* test */
-    padding: 10px 14px;
-
+#footer-bottom > *{
     background-color: #ffb6c1;
+    border: 1px dashed black;
+
+    padding: 10px 14px;
 }
